@@ -25,6 +25,11 @@
     center: [-71.101, 42.358],
     zoom: 10
   })
+
+  // Show a merker/pin on the map
+  var marker = new mapboxgl.Marker()
+    .setLangLat([-71.101, 42.358])
+    .addTo(map)
 </script>
 </body>
 </html>
