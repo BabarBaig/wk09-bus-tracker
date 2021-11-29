@@ -1,6 +1,7 @@
 # wk09-maps
 
-To run this project, load file index.html into a browser.
+Load a map centered on the MIT campus.  
+To execute, load file index.html into a browser.
 
 See also <https://openweathermap.org/>
 
