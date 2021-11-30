@@ -38,10 +38,13 @@ function move() {
     // Use counter to access bus stops in the array busStops
     // Make sure you call move() after you increment the counter.
     setTimeout(() => {
-        if (counter >= busStops.length) return;  // bus marker has arrived at destination
+        if (counter >= busStops.length) {
+            counter = 0;    // reset counter so animation will restart when 
+                            // button is pressed again
+            return;         // bus marker has arrived at destination
+        }
         marker.setLngLat(busStops[counter])
         counter++
         move()
-    }, 1000)
+    }, 750)
 }
-      
