@@ -12,7 +12,7 @@ const busStops = [
     [-71.115476, 42.372085],
     [-71.117585, 42.373016],
     [-71.118625, 42.374863],
-  ];
+];
 
 // get access token: https://account.mapbox.com
 mapboxgl.accessToken = 'pk.eyJ1IjoiYm9iLWJhaWciLCJhIjoiY2t3anZ1ZjB0MW1kaDJwcDh0bWtkNmtydyJ9.IZfkBpVPcPj9RkWwdEJRFw';
