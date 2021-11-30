@@ -1,4 +1,4 @@
-# wk09-maps
+# Real Time Bus Tracker
 
 Load a map centered on the MIT campus.  
 Press button on map to show animation of the bus route between MIT and Harvard.  
