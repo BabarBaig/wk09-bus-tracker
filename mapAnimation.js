@@ -15,7 +15,7 @@ const busStops = [
 ];
 
 // get access token: https://account.mapbox.com
-mapboxgl.accessToken = 'pk.eyJ1IjoiYm9iLWJhaWciLCJhIjoiY2t3anZ1ZjB0MW1kaDJwcDh0bWtkNmtydyJ9.IZfkBpVPcPj9RkWwdEJRFw';
+mapboxgl.accessToken = '';
 
 // create new map
 const map = new mapboxgl.Map({
