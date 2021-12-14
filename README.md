@@ -25,4 +25,5 @@ Without an access token, this repo will not work.
 
 <https://openweathermap.org/>
 
-**Credit: MIT xPRO: Professional Certificate in Coding: Full Stack Development with MERN - September 2021**
+**Credit:  
+MIT xPRO: Professional Certificate in Coding: Full Stack Development with MERN - September 2021**
