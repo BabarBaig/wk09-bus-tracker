@@ -13,8 +13,8 @@ Press button on map to show animation of the bus route between MIT and Harvard.
 
 Clone this repo on your computer and load file index.html into a browser.
 In file mapanimation.js, near line 18, you need to enter an access token.
-To get a token, visit https://account.mapbox.com
-Without the access token, this repo will not work.
+To get a token, visit https://account.mapbox.com and replace any existing token with your own token.
+Without an access token, this repo will not work.
 
 ## Future Improvements
 
