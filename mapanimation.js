@@ -14,7 +14,7 @@ const busStops = [
     [-71.118625, 42.374863],
 ];
 
-// get access token: https://account.mapbox.com
+// get access token from https://account.mapbox.com and replace following Token with your own.
 mapboxgl.accessToken = 'pk.eyJ1IjoiYm9iLWJhaWciLCJhIjoiY2t3anZ1ZjB0MW1kaDJwcDh0bWtkNmtydyJ9.IZfkBpVPcPj9RkWwdEJRFw';
 
 // create new map
