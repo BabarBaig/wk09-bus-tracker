@@ -3,12 +3,6 @@
 Load a map centered on the MIT campus.  
 Press button on map to show animation of the bus route between MIT and Harvard.  
 
-## Improvements to the core project
-
-1. Original button looked more like a label.  This meant some users might-not realize it's a button, and not press it.  Change button to a 3D rounded button in MIT cardinal red with shadow effect.  When pressed, button shows an animated button-press.
-2. Original project ran only once/load.  Reset counter in code so that when marker animation ends, pressing the button on the map restarts it from beginning
-3. Change refresh speed from 1000ms to 750ms.   This hopefully makes the animation a bit more engaging.
-
 ## To Execute
 
 Clone this repo and load file index.html in a browser.  Note that in file mapanimation.js, near line 18, you need to enter an access token.
@@ -16,8 +10,6 @@ To get a token, visit https://account.mapbox.com and replace any existing token 
 Without an access token, this repo will not work.
 Note that based on traffic, at MapBox.com, page load might take a few moments.  
 Once page loads, clinck on the crimson button on the top-left of the page.
-
-Or click on this link: <https://babarbaig.github.io/wk09-realtime-bus-tracker/>
 
 ## Future Improvements
 
